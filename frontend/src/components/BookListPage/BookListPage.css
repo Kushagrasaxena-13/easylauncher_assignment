@@ -1,0 +1,72 @@
+/* BookListPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .add-button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .book {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book h3 {
+    margin-bottom: 10px;
+  }
+  
+  .book p {
+    margin-bottom: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button.edit {
+    background-color: #007bff;
+  }
+  
+  .buttons button.delete {
+    background-color: #dc3545;
+  }
+  
+  .book button:hover {
+    background-color: #c82333;
+  }
+  
